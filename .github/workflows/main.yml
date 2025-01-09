@@ -33,7 +33,7 @@ jobs:
 
     # Step 4: Build the project
     - name: Build with Gradle
-      run: ./gradlew build
+      run: chmod +x gradlew && ./gradlew build
 
     # Step 5: Upload build artifacts
     - name: Upload artifacts
